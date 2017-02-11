@@ -44,7 +44,7 @@ public class Driver {
   }
 
   public void printVector(int[][] data, double[] weights, int result, double error, double weightedSum, double[] adjustedWeights) {
-    System.out.println("  " + String.format("%.2f | %.2f | %d | %d | %d | %d | %f | %f | %.2f | %.2f",
+    System.out.println(String.format("%.2f | %.2f | %d | %d | %d | %d | %f | %f | %.2f | %.2f",
       weights[0],
       weights[1],
       data[0][0],
